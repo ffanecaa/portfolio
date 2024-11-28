@@ -18,6 +18,7 @@ export const Resume = () => {
           <FaLaptopCode size={50} /> Experiencia
         </h2>
       </div>
+      
       <div className="resume-widget">
         {experienceData.map((item) => (
           <div className="resume-item" key={item.id}>

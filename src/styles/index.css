@@ -188,7 +188,7 @@ a h6:hover {
 .text-center {
   text-align: center;
 }
-.ul-reset {
+.ul-reset ,.hero-ul-reset{
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1092,8 +1092,6 @@ header img {
 .resume-column {
   width: 50%; /* Ambas columnas ocupan el 50% con espacio */
   padding: 20px 20px 20px 22px;
-  
-
   border-radius: 10px;
 }
 
@@ -1638,9 +1636,56 @@ footer img {
   justify-content: space-around;
   align-items: center;
  }
- .header-button{
-  display: none;
- }
 
 
+ .container-resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  gap: 20px; 
+}
+.resume-column {
+  width: 100%; 
+
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px;
+}
+.portfolio-box .content-box {
+  
+  height: 90%;
+
+}
+.skills-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+.ul-reset {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column reverse;
+  flex-wrap: wrap;
+margin-top: 20px;
+}
+.hero-ul-reset {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+ 
+  flex-direction: column reverse;
+
+margin-top: 20px;
+}
+.contact-info-list li{
+  padding-left: 5px;
+  margin-top: 25px;
+}
+.resume-sections {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
 }

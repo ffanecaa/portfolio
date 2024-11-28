@@ -67,11 +67,11 @@ export const Header = () => {
           </div>
 
           <div className="flexSB">
-            <div className="header-button">
+            {/* <div className="header-button">
               <NavLink to="/" className="btn tj-btn-primary">
                 Hire me!
               </NavLink>
-            </div>
+            </div> */}
             <div className="menu-icon" onClick={toggleMenu}>
               {isMenuOpen ? <IoCloseOutline size={55} /> : <IoMenuOutline size={55} />}
             </div>

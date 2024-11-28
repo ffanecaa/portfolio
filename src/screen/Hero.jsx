@@ -57,7 +57,7 @@ export const Hero = () => {
                   <a href="#" className="btn tj-btn-secondary">
                     Descarga CV <i className="flaticon-download"></i>
                   </a>
-                  <ul className="ul-reset social-icons">
+                  <ul className="hero-ul-reset  social-icons">
                     {socialIcons.map((icon, index) => (
                       <li key={index}>
                         <a href={icon.link} target="_blank">{icon.icon}</a>

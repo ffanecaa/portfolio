@@ -8,6 +8,9 @@ export const Skill = () => {
           <div className="section-header text-center">
             <h2 className="section-title">Habilidades</h2>
             <p> Tecnologías y herramientas que domino, con un enfoque práctico y experiencia en cada una de ellas:</p>
+            <div className="portfolio-filter text-center "style={{ marginTop: "10px" }}>
+           
+          </div>
           </div>
 
           <div className="skills-widget grid6">

@@ -48,6 +48,7 @@ export const Contact = () => {
           <div className="contact-form-box w-half">
             <div className="section-header">
               <h2 className="section-title">Contacta!</h2>
+              
               <p>
                 Me dedico a crear y desarrollar con sencillez. Disfruto cada paso de lo que hago. Simple, pero significativo
               </p>
