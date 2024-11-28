@@ -1305,6 +1305,7 @@ header img {
   .grid6 {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+    margin-right: -8px;
   }
   .grid5,
   .grid3,
