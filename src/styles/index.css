@@ -1304,7 +1304,7 @@ header img {
 @media screen and (max-width: 768px) {
   .grid6 {
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
   }
   .grid5,
   .grid3,
@@ -1662,6 +1662,7 @@ footer img {
   padding-top: 40px;
   padding-bottom: 40px;
 
+
 }
 .ul-reset {
   display: flex;
@@ -1688,4 +1689,9 @@ margin-top: 20px;
   padding-top: 60px;
   padding-bottom: 30px;
 }
+.resume-column 
+.section-header
+  .section-title{
+    font-size: 2.6rem;
+  }
 }
