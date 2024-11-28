@@ -54,7 +54,7 @@ export const Hero = () => {
 
                 </p>
                 <div className="button-box flexG">
-                  <a href="#" className="btn tj-btn-secondary">
+                  <a href="./curriculum_Marta.pdf" target="_blanck" className="btn tj-btn-secondary">
                     Descarga CV <i className="flaticon-download"></i>
                   </a>
                   <ul className="hero-ul-reset  social-icons">
