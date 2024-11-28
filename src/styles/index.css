@@ -1372,7 +1372,10 @@ header img {
     margin-right: 0;
   }
   .w-half {
-    width: 100%;
+  
+      width: 100%;
+    
+  
   }
 }
 /* -------------  END: Contact Section  --------------*/
@@ -1694,5 +1697,13 @@ margin-top: 20px;
 .section-header
   .section-title{
     font-size: 2.6rem;
+    padding-left: 4px;
+  }
+  .contact-form-box{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
   }
 }
