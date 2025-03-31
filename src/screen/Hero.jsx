@@ -46,9 +46,9 @@ export const Hero = () => {
                 
                 </h1>
 
-                <div className="hero-image-box d-md-none text-center">
+                {/* <div className="hero-image-box d-md-none text-center">
                   <img src="assets/img/hero/me.png" alt="" />
-                </div>
+                </div> */}
 
                 <p className="lead"> con sede en Santiago,  Apasionada por la historia del arte, el cine, la música y los videojuegos.Siempre en busca de nuevos desafíos y oportunidades para aprender.
 
