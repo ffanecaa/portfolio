@@ -102,8 +102,8 @@ export const linklist = [
   export const educationData = [
     {
       id: 1,
-      time: "2024-",
-      title: "Ciclo Superior de DAW (en curso  falta asignatura no tecnologica )",
+      time: "2023-2025",
+      title: "Ciclo Superior de DAW (en prácticas y trabajando en el proyecto )",
       institute: "IES San Clemente. Santiago ",
     },
     {
